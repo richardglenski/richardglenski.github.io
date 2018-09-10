@@ -4,7 +4,26 @@
 
 <html>
 <body>
-<h1>Hello World</h1>
+<h1>Hola El Mundo -- </h1>
+    
+<h3> Testing Vue.js  app: Basic hello: </h3>  
+<div id="app">
+  {{ message }}
+</div>   
+   <h3> Divs App2: Dynamic hover </h3>  
+<div id="app-2">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds
+    to see my dynamically bound title!
+  </span>
+</div>
+ 
+    <h3> Divs App3: Vue blinker </h3>  
+<div id="app-3">
+  <span v-if="seen">Now you see me</span>
+</div>
+    
+     <h3> More things </h3>  
 <p>I'm hosted with GitHub Pages.</p>
     <h3> Results oriented Development </h3>
     <p> Heres a Quote: <hr> you get what you measure. The more you measure results, the more results you get.  <hr> </p>
@@ -17,17 +36,7 @@
         <a href="https://richardglenski.github.io/JS6_LittleEarl_Await_Async/"> Little Earl </a>(URL shortener with JS6 Async)
     
          </p>
-    <h3> Divs app </h3>  
-<div id="app">
-  {{ message }}
-</div>   
-   <h3> Divs App-2 </h3>  
-<div id="app-2">
-  <span v-bind:title="message">
-    Hover your mouse over me for a few seconds
-    to see my dynamically bound title!
-  </span>
-</div>
+
     
 </body>
 </html>
