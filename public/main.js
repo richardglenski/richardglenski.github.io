@@ -1,4 +1,4 @@
-//main.js - testing with vue  simple things
+//main.js - testing with vue  simple things,  and variations
 //
 var app = new Vue({
   el: '#app',
@@ -36,7 +36,7 @@ var app5 = new Vue({
   methods: {
     reverseMessage: function () {
       this.message = this.message.split('').reverse().join('')
-    }
+    },
     doThings: function () {
       this.message = 'Hey there, its Done'
     }
