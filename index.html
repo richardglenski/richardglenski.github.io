@@ -18,9 +18,18 @@
   </span>
 </div>
  
-    <h3> Divs App3: Vue blinker </h3>  
+    <h3> Divs App3: Vue visibility </h3>  
 <div id="app-3">
   <span v-if="seen">Now you see me</span>
+</div>
+    
+    <h3> Divs App4: Vue arrays </h3>  
+   <div id="app-4">
+  <ol>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
 </div>
     
      <h3> More things </h3>  
