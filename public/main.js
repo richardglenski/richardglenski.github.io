@@ -1,4 +1,4 @@
-//main.js - testing with vue
+//main.js - testing with vue  simple things
 //
 var app = new Vue({
   el: '#app',
