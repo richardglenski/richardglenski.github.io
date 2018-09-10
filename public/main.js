@@ -39,6 +39,9 @@ var app5 = new Vue({
     },
     doThings: function () {
       this.message = 'Hey there, its Done'
+    },
+    doMoreThings: function () {
+      this.message = 'Yep, Even More is Done'
     }
   }
 })
