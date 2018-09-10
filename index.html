@@ -11,30 +11,31 @@
       <button v-on:click="reverseMessage">Reverse Message</button>
       <button v-on:click="doThings">Do Things</button>
       <button v-on:click="doMoreThings">Do More Things</button>
-        <h3> Testing Vue.js  app: Basic hello: </h3>  
-            <div id="app">
-              {{ message }}
-            </div>   
-        <h3> Divs App2: Dynamic hover </h3>  
-            <div id="app-2">
-                <span v-bind:title="message">
-                Hover your mouse over me for a few seconds
-                to see my dynamically bound title!
-                </span>
-            </div>
-        <h3> Divs App3: Vue visibility </h3>  
-            <div id="app-3">
-              <span v-if="seen">Now you see me</span>
-            </div>
-        <h3> Divs App4: Vue arrays </h3>  
-           <div id="app-4">
-            <ol>
-               <li v-for="todo in todos">
-                 {{ todo.text }}
-               </li>
-            </ol>
-        </div> 
-    </div>    
+   </div>    
+ 
+  <h3> Testing Vue.js  app: Basic hello: </h3>  
+      <div id="app">
+        {{ message }}
+      </div>   
+  <h3> Divs App2: Dynamic hover </h3>  
+      <div id="app-2">
+          <span v-bind:title="message">
+          Hover your mouse over me for a few seconds
+          to see my dynamically bound title!
+          </span>
+      </div>
+  <h3> Divs App3: Vue visibility </h3>  
+      <div id="app-3">
+        <span v-if="seen">Now you see me</span>
+      </div>
+  <h3> Divs App4: Vue arrays </h3>  
+     <div id="app-4">
+      <ol>
+         <li v-for="todo in todos">
+           {{ todo.text }}
+         </li>
+      </ol>
+  </div> 
      
 <h3> More things </h3>  
 <p>I'm hosted with GitHub Pages.</p>
